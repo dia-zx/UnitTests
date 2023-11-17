@@ -6,6 +6,7 @@ import org.junit.jupiter.api.*;
 import Calculator.Calculator;
 
 public class CalculatorTest {
+  /* // нет необходимости в создании объекта т.к. метод - статический
   private Calculator calculator;
   
   @BeforeEach // метод будет выполняться каждый раз перед каждым тестом
@@ -17,6 +18,7 @@ public class CalculatorTest {
   public void teardown(){
       calculator = null;
   }
+   */
 
   @Test
   @DisplayName("Проверка вычислений метода calculateDiscount")
