@@ -13,7 +13,7 @@ public class UserRepositoryTest {
     private UserRepository repository;
     
     @BeforeEach // метод будет выполняться каждый раз перед каждым тестом
-    void setup() {
+    public void setup() {
         repository = new UserRepository(); // создадим экземпляр класса UserRepository методы которого будем тестировать
     }
 
